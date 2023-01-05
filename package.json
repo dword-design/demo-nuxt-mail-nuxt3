@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev"
+  },
+  "dependencies": {
+    "@dword-design/dotenv-json-extended": "^2.0.8",
+    "nuxt": "^3.0.0",
+    "nuxt-mail": "^3.0.23"
+  }
+}
