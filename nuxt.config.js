@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   modules: [
     ['nuxt-mail', {
       smtp: JSON.parse(process.env.MAIL_CONFIG || ''),
+      message: { to: 'foo@bar.de' },
     }],
   ],
 })
